@@ -1,9 +1,4 @@
-//
-//  ToDoListTests.swift
-//  ToDoListTests
-//
-//  Created by Анастасия Бацазова on 21.05.2025.
-//
+
 
 import Testing
 @testable import ToDoList

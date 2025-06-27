@@ -1,9 +1,4 @@
-//
-//  AppDelegate.swift
-//  ToDoList
-//
-//  Created by Анастасия Бацазова on 21.05.2025.
-//
+
 
 import UIKit
 
@@ -13,6 +8,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+        TasksViewModel().requestForNotification()
+        
         // Override point for customization after application launch.
         return true
     }
